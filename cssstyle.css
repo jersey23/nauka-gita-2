@@ -1,7 +1,16 @@
+/* Global */
+* {
+    font-family: 'Playfair Display', serif;
+}
+
 /* Poem Head */
 .poem-head h2 {
         font-size: 32px;
         font-weight: 700;
+}
+
+.poem-head p {
+    font-style: italic;
 }
 
 /* Poem Body */
@@ -9,3 +18,7 @@
 
 
 /* Footer */
+.footer p {
+    font-size: 12px;
+    font-style: italic;
+}
