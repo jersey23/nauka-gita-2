@@ -1,13 +1,7 @@
 /* Poem Head */
-.poem-head {
-    h2 {
+.poem-head h2 {
         font-size: 32px;
         font-weight: 700;
-    }
-
-    p {
-        font-style: italic;
-    }
 }
 
 /* Poem Body */
