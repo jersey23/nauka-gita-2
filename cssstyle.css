@@ -1,12 +1,28 @@
 /* Global */
+
 * {
     font-family: 'Playfair Display', serif;
+    box-sizing: content-box;
+}
+
+* section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+}
+
+* container {
+    margin: 0 100px;
+    align-content: center
 }
 
 /* Poem Head */
+
 .poem-head h2 {
-        font-size: 32px;
-        font-weight: 700;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .poem-head p {
@@ -15,9 +31,13 @@
 
 /* Poem Body */
 
-
+.col {
+    padding-top: 5px;
+    line-height: 0.5;
+}
 
 /* Footer */
+
 .footer p {
     font-size: 12px;
     font-style: italic;
